@@ -1,0 +1,62 @@
+/*********PROJECTS***************/
+.imgProject,
+.iconsSkills{
+  transition: 0.5s;
+}
+.singleProject{
+  transition: 0.4s;
+}
+.singleProject:hover .imgProject{
+  scale: 102%;
+  height: auto;
+}
+.singleProject:hover .iconsSkills{
+  font-size: 25px;
+}
+
+.selectedProject{
+  width: 90%;
+  align-items: normal;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+.selectedProject:hover .imgProject{
+  scale: 100%;
+
+}
+.selectedProject:hover .iconsSkills{
+  font-size: 30px;
+}
+.selectedProject > div{
+  width: 60%;
+  
+}
+.cajaSubtitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 50px;
+}
+.selectedProject .subtitleProject{
+  width: fit-content;
+  
+}
+.selectedProject .subtitleProject h2{
+  width: fit-content;
+  
+  margin-top: 10px;
+}
+
+.unSelectedProject{
+  width: 30%;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.unSelectedProject > div{
+}
+.unSelectedProject .subtitleProject h2{
+  margin-top: 10px;
+}
