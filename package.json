@@ -1,7 +1,7 @@
 {
   "name": "jsuchmolin",
   "private": true,
-  "homepage": "http://suchmolin.github.io/jsuchmolin",
+  "homepage": "https://suchmolin.github.io/jsuchmolin",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
