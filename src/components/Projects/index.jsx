@@ -82,13 +82,15 @@ export default function Projects() {
                 </p>
                 <div className="w-full flex gap-5 justify-center items-center mt-10">
                   <a
-                    href="#"
+                    href="https://jsuchmolin.site"
+                    target="_blank"
                     className="py-2 px-3 bg-blue-400 rounded-sm cursor-pointer hover:bg-blue-500 flex gap-2 items-center shadow-lg"
                   >
                     Visit Page <FaExternalLinkAlt />
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/suchmolin/jsuchmolin"
+                    target="_blank"
                     className="py-2 px-3 bg-blue-400 rounded-sm cursor-pointer hover:bg-blue-500 flex gap-2 items-center shadow-lg"
                   >
                     Repository <FaGithub />
@@ -132,7 +134,8 @@ export default function Projects() {
                 </p>
                 <div className="w-full flex gap-5 justify-center items-center mt-10">
                   <a
-                    href="#"
+                    href="https://github.com/suchmolin/AmazonLayout"
+                    target="_blank"
                     className="py-2 px-3 bg-blue-400 rounded-sm cursor-pointer hover:bg-blue-500 flex gap-2 items-center shadow-lg"
                   >
                     Repository <FaGithub />
@@ -178,13 +181,15 @@ export default function Projects() {
                 <p>test pasword: test123</p>
                 <div className="w-full flex gap-5 justify-center items-center mt-10">
                   <a
-                    href="#"
+                    href="https://sistcom.site"
+                    target="_blank"
                     className="py-2 px-3 bg-blue-400 rounded-sm cursor-pointer hover:bg-blue-500 flex gap-2 items-center shadow-lg"
                   >
                     Visit Page <FaExternalLinkAlt />
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/suchmolin/sistcom"
+                    target="_bank"
                     className="py-2 px-3 bg-blue-400 rounded-sm cursor-pointer hover:bg-blue-500 flex gap-2 items-center shadow-lg"
                   >
                     Repository <FaGithub />
