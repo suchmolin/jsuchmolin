@@ -23,14 +23,14 @@ export default function Abaut() {
 
   return (
     <div id="aboutPage" className=" w-full min-h-screen">
-      <div className=" pagetoUp w-full flex flex-col md:flex-row h-full pt-6 md:px-20 px-5">
-        <div className="w-12/12 md:w-4/12 flex flex-col">
+      <div className=" pagetoUp w-full flex flex-col lg:flex-row h-full pt-6 lg:px-20 px-5">
+        <div className="w-12/12 lg:w-4/12 flex flex-col">
           <div className="border-b-4 border-gray-600 w-fit px-2">
             <h2 className="aboutTittle Poppins w-fit text-4xl mt-12 border-b-4 border-orange-400 px-4 py-1">
               About
             </h2>
           </div>
-          <div className="picInfo Poppins h-full w-full flex flex-col items-center md:border-r-2 pr-7 mt-10">
+          <div className="picInfo Poppins h-full w-full flex flex-col items-center lg:border-r-2 pr-7 mt-10">
             <div
               style={{
                 backgroundImage: "url('./img/foto2.jpg')",
@@ -52,7 +52,7 @@ export default function Abaut() {
             </p>
           </div>
         </div>
-        <div className="boxSkills relative w-12/12 md:w-8/12 text-lg flex items-center justify-center">
+        <div className="boxSkills relative w-12/12 lg:w-8/12 text-lg flex items-center justify-center">
           <div className="flex overflow-hidden h-screen">
             <SkillOne />
             <SkillTwo />

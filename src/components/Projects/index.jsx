@@ -45,10 +45,10 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="projects w-full flex gap-10 justify-center pb-52 px-4 md:px-10 flex-wrap">
+      <div className="projects w-full flex gap-10 justify-center pb-52 px-4 lg:px-10 flex-wrap">
         <div
           onClick={() => changeSelected(0)}
-          className="singleProject unSelectedProject min-w-3/12 min-h-72 rounded-lg bg-white pb-2 md:p-5 flex shadow-2xl"
+          className="singleProject unSelectedProject min-w-3/12 min-h-72 rounded-lg bg-white pb-2 lg:p-5 flex shadow-2xl"
         >
           <div className="w-full">
             <img src="./img/project1.png" alt="" className="imgProject" />
@@ -78,7 +78,7 @@ export default function Projects() {
                   information. This project was made with: HTML, CSS,
                   JavaScript, React JS,Tailwind CSS, Vite.js
                 </p>
-                <div className="w-full flex flex-col md:flex-row gap-5 justify-center items-center mt-10">
+                <div className="w-full flex flex-col lg:flex-row gap-5 justify-center items-center mt-10">
                   <a
                     href="http://jsuchmolin.site"
                     target="_blank"
@@ -100,7 +100,7 @@ export default function Projects() {
         </div>
         <div
           onClick={() => changeSelected(1)}
-          className="singleProject unSelectedProject  min-w-3/12 min-h-72 rounded-lg bg-white pb-2 md:p-5 flex shadow-2xl"
+          className="singleProject unSelectedProject  min-w-3/12 min-h-72 rounded-lg bg-white pb-2 lg:p-5 flex shadow-2xl"
         >
           <div className="w-full">
             <img src="./img/project2.png" alt="" className="imgProject" />
@@ -118,7 +118,7 @@ export default function Projects() {
           </div>
           <div className="cajaSubtitle">
             <div className="subtitleProject border-b-4 border-gray-600 w-fit h-fit mt-3 px-2">
-              <h2 className="Poppins w-fit leading-3 md:text-xl border-b-4 border-orange-500 py-1 px-1">
+              <h2 className="Poppins w-fit leading-3 lg:text-xl border-b-4 border-orange-500 py-1 px-1">
                 Amazon Layout
               </h2>
             </div>
@@ -145,7 +145,7 @@ export default function Projects() {
         </div>
         <div
           onClick={() => changeSelected(2)}
-          className="singleProject unSelectedProject min-w-3/12 min-h-72 rounded-lg  bg-white pb-2 md:p-5 flex shadow-2xl"
+          className="singleProject unSelectedProject min-w-3/12 min-h-72 rounded-lg  bg-white pb-2 lg:p-5 flex shadow-2xl"
         >
           <div className="w-full">
             <img src="./img/project3.png" alt="" className="imgProject" />
@@ -177,7 +177,7 @@ export default function Projects() {
                 </p>
                 <p>test email: test@test.com</p>
                 <p>test pasword: test123</p>
-                <div className="w-full flex flex-col md:flex-row gap-5 justify-center items-center mt-10">
+                <div className="w-full flex flex-col lg:flex-row gap-5 justify-center items-center mt-10">
                   <a
                     href="https://sistcom.site"
                     target="_blank"

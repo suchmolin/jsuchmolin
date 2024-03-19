@@ -64,7 +64,7 @@
   margin-top: 10px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   
   .selectedProject{
     flex-direction: column;
@@ -76,7 +76,7 @@
   }
   
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .unSelectedProject{
     width: 100%;
   }

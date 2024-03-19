@@ -18,7 +18,7 @@ export default function Contacts() {
           />
         </div>
         <div className="contacts w-full text-center text-white Poppins pt-4 pb-10">
-          <ul className=" w-full flex gap-7 md:gap-10 justify-center mt-10 mb-12">
+          <ul className=" w-full flex gap-7 lg:gap-10 justify-center mt-10 mb-12">
             <a href="https://github.com/suchmolin" target="_blank">
               <li className="rounded-full p-3 text-xl ring-2 ring-white cursor-pointer  hover:bg-white hover:text-black ease-in-out duration-500">
                 <FiGithub />
