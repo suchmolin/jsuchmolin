@@ -21,7 +21,7 @@ export default function SkillSelector(props) {
   };
 
   return (
-    <div className="absolute bottom-4 flex gap-2 items-center">
+    <div className="absolute bottom-7 flex gap-2 items-center">
       <span
         onClick={() => newSelector("prev")}
         className="text-orange-500 h-5 w-6 cursor-pointer hover:text-2xl ease-in duration-300 flex items-center "

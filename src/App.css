@@ -82,6 +82,7 @@ html{
   justify-content: center;
   align-items: center;
 }
+
 .imgContHzt {
   width: 170px;
   height: auto;
@@ -137,7 +138,7 @@ html{
 .divider,
 .skewed,
 .projects {
-  background-color:rgb(220, 231, 242)
+  background-color:rgb(255, 236, 179)
 }
 /*******************************************************/
 @keyframes bgZoom {

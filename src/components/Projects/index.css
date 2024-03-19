@@ -4,7 +4,7 @@
   transition: 0.5s;
 }
 .singleProject{
-  transition: 0.4s;
+  transition: 0.8s;
 }
 .singleProject:hover .imgProject{
   scale: 102%;
@@ -21,9 +21,10 @@
   gap: 10px;
   
 }
+
 .selectedProject:hover .imgProject{
   scale: 100%;
-
+  
 }
 .selectedProject:hover .iconsSkills{
   font-size: 30px;
@@ -38,7 +39,9 @@
   align-items: center;
   width: 100%;
   padding: 10px 50px;
+  transition: 0.5;
 }
+
 .selectedProject .subtitleProject{
   width: fit-content;
   
@@ -55,8 +58,27 @@
   flex-direction: column;
   cursor: pointer;
 }
-.unSelectedProject > div{
-}
+
+
 .unSelectedProject .subtitleProject h2{
   margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+  
+  .selectedProject{
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .selectedProject > div{
+    width: 100%;
+  }
+  
+}
+@media (max-width: 640px) {
+  .unSelectedProject{
+    width: 100%;
+  }
+  
 }

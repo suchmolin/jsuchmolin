@@ -22,27 +22,27 @@ export default function Abaut() {
   }, [stateSelector]);
 
   return (
-    <div id="aboutPage" className=" w-full h-screen">
-      <div className=" pagetoUp w-full flex h-full py-6 px-20">
-        <div className="w-4/12 flex flex-col">
+    <div id="aboutPage" className=" w-full min-h-screen">
+      <div className=" pagetoUp w-full flex flex-col md:flex-row h-full pt-6 md:px-20 px-5">
+        <div className="w-12/12 md:w-4/12 flex flex-col">
           <div className="border-b-4 border-gray-600 w-fit px-2">
             <h2 className="aboutTittle Poppins w-fit text-4xl mt-12 border-b-4 border-orange-400 px-4 py-1">
               About
             </h2>
           </div>
-          <div className="picInfo Poppins h-full w-full flex flex-col items-center border-r-2 pr-7 mt-10">
+          <div className="picInfo Poppins h-full w-full flex flex-col items-center md:border-r-2 pr-7 mt-10">
             <div
               style={{
-                backgroundImage: "url('./foto2.jpg')",
+                backgroundImage: "url('./img/foto2.jpg')",
                 backgroundSize: "100% 140%",
                 backgroundPosition: "0 -20px",
               }}
               className="rounded-full w-60 h-60"
             ></div>
-            <p className="text-center mt-2 text-lg">Jose Suchmolin J.</p>
-            <p className="text-justify mt-2">
-              Ingeniero en sistema, autodidacta, orientado al desarrollo de
-              software, especializado en el diseño y desarrollo Front-end
+            <p className="text-center mt-2 text-2xl">Jose Suchmolin J.</p>
+            <p className="text mt-2">
+              system engineer, self-taught, oriented to software development,
+              specialized in Front-end design and development
             </p>
             <p className="flex items-center w-full mt-4">
               <span className="text-red-500 mr-2">
@@ -52,8 +52,8 @@ export default function Abaut() {
             </p>
           </div>
         </div>
-        <div className="boxSkills relative w-8/12 text-lg flex items-center justify-center">
-          <div className="flex overflow-hidden">
+        <div className="boxSkills relative w-12/12 md:w-8/12 text-lg flex items-center justify-center">
+          <div className="flex overflow-hidden h-screen">
             <SkillOne />
             <SkillTwo />
             <SkillThree />
