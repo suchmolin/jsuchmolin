@@ -7,7 +7,10 @@ import { SiGmail } from "react-icons/si";
 export default function Contacts() {
   return (
     <div id="contactsPage" className="">
-      <div id="dividerContacts" className="dividerContacts relative h-32">
+      <div
+        id="dividerContacts"
+        className="dividerContacts relative h-32 2xl:h-52"
+      >
         <div className="skewedContacts"></div>
         <div className="contacts w-full flex justify-center pt-10">
           <img

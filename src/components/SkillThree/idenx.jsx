@@ -2,7 +2,7 @@ export default function SkillThree() {
   return (
     <div
       id="SkillSecThree"
-      className="skillSec flex flex-col items-center w-full px-20 pt-16 lg:pt-0"
+      className="skillSec flex flex-col items-center w-full px-20 2xl:px-64 pt-16 lg:pt-0 2xl:pt-32"
     >
       <div className="w-12/12">
         <div className="flex w-full justify-center mt-10">
@@ -12,7 +12,7 @@ export default function SkillThree() {
             </h2>
           </div>
         </div>
-        <div className=" flex gap-7 mt-10 min-h-40 px-32 lg:px-20">
+        <div className=" flex gap-7 2xl:gap-20 mt-10 min-h-40 px-32 lg:px-20">
           <div className="imgCont">
             <a href="https://github.com/suchmolin" target="_blank">
               <img src="./img/ghlogo.png" alt="ghlogo" />
@@ -26,7 +26,7 @@ export default function SkillThree() {
               <img src="./img/linkedinlogo.png" alt="linkedinlogo" />
             </a>
           </div>
-          <div className="imgCont hidden lg:block">
+          <div className="imgCont hidden lg:block mt-7">
             <a href="https://www.facebook.com/suchmolinjose/" target="_blank">
               <img src="./img/fblogo.png" alt="fblogo" />
             </a>

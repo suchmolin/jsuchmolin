@@ -2,7 +2,7 @@ export default function SkillTwo() {
   return (
     <div
       id="SkillSecTwo"
-      className="skillSec flex flex-col items-center -ml-20 mr-20 lg:pt-16"
+      className="skillSec flex flex-col items-center -ml-20 2xl:ml-10 mr-20 2xl:mr-32 lg:pt-16 2xl:pt-32"
     >
       <div className="w-12/12">
         <div className="flex w-full justify-center mt-10">

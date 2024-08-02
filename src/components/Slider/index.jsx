@@ -4,7 +4,12 @@ import { useEffect, useState } from "react";
 
 export default function Slider() {
   const [currentImg, setCurrentImg] = useState(0);
-  const images = ["bgcoffee.png", "desk.jpg", "desk2.jpg"];
+  const images =
+    window.innerHeight < window.innerWidth
+      ? ["bgcoffee.png", "desk.jpg", "desk2.jpg"] //horizontal
+      : ["deskVert.jpg", "desk.jpg"]; //vertical
+
+  console.log();
 
   const nextImg = () => {
     if (currentImg === images.length - 1) {
